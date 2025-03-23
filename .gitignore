@@ -1,0 +1,37 @@
+# Binaries
+bin/
+*.out
+*.exe
+
+# Swagger generated files
+docs/swagger.json
+docs/swagger.yaml
+
+# IDEs & editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Go
+bin/
+vendor/
+*.test
+
+# Logs
+*.log
+
+# Env & config
+.env
+configs/*.local.yaml
+
+# Docker
+*.tar
+docker-compose.override.yml
+
+# Migrations (compiled)
+migrations/*.lock
